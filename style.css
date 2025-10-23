@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: sage green(135deg, #55c773, #59a93a);
+  color: #55c773;
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #070505;
+  margin-bottom: 15px;
+  box-shadow: 0 0 15px rgba(143, 250, 101, 0.94);
+}
+
+.profile h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  font-weight: 300;
+  color: #f1e6ff;
+}
+
+.social-links a {
+  color: #55c773;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: transform 0.3s;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #55c773;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(85, 230, 106, 0.722);
+  margin: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #55c773;
+  text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+.skill-tags span {
+  display: inline-block;
+  background: #55c773;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.skill-tags span:hover {
+  background: #55c773;
+}
+
+.project-card {
+  background: rgba(77, 237, 72, 0.814);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px auto;
+  max-width: 500px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #45f64bd0;
+}
